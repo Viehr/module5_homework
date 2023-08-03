@@ -1,11 +1,10 @@
 //задание номер 1
-result = prompt('');
-num = +result;
-to = typeof num;
-if (isNaN(num)) {
+let result = +prompt('');
+let to = typeof num;
+if (isNaN(result)) {
     console.log("Упс, кажется, вы ошиблись")
 } else {
-    if (num%2 === 0) {
+    if (result%2 === 0) {
       console.log("Число четное")
     } else {
       console.log("Число нечетное")
@@ -21,7 +20,7 @@ if (typeof x === "number") {
     if (typeof x === "string") {
         console.log("x - строка")
     } else {
-        if (typeof x === "Boolean") {
+        if (typeof x === "boolean") {
             console.log("x - логический тип")
         } else {
             console.log("Тип x не определён")
@@ -52,12 +51,10 @@ let result = arr.map(function(item, index, array) {
   return item 
 });
 console.log(result);
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr[2]);
-console.log(arr[3]);
-console.log(arr[4]);
-console.log(arr[5]);
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
 
 
 
