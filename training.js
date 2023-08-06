@@ -160,3 +160,50 @@ alert(sum);*/
 
 
 //задание 3.3
+let z = 10;
+let k;
+do {
+  while (k !=z) {
+    k = prompt('Введите число ' + z);
+  }
+  z *=2
+} while (k<100);
+alert('спасибо');
+
+/*мой код опять не работает, вот ответ:
+let neededNumber = 10;
+let currentNumber;
+
+do {
+  while(currentNumber != neededNumber) {
+    currentNumber = prompt('Введите число ' + neededNumber);
+  }
+  neededNumber *= 2;
+} while (currentNumber < 100);
+alert('Спасибо!')*/
+
+
+
+
+
+//задание 4.1
+
+
+
+
+//задание 4.2
+
+
+
+
+//задание 4.3
+
+
+
+
+//задание 4.4
+
+
+
+
+//задание 4.5
